@@ -7,8 +7,11 @@
 		"test": "jest",
 		"test:watch": "jest --watch",
 		"dev": "nodemon src/server.ts",
-		"start": "pnpm build && pnpm public/server.js",
-		"build": "rm -rf public/ && tsc"
+		"start": "pnpm build && pnpm dist/server.js",
+		"build": "rm -rf dist/ && tsc"
+	},
+	"engines": {
+		"node": "14.x"
 	},
 	"keywords": [],
 	"author": "",
