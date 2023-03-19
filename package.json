@@ -7,7 +7,7 @@
 		"test": "jest",
 		"test:watch": "jest --watch",
 		"dev": "nodemon src/server.ts",
-		"start": "node dist/server.js"
+		"start": "node server.js"
 	},
 	"engines": {
 		"node": "14.x"
