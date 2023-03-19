@@ -1,1 +1,6 @@
+### LOCAL DEPLOYMENT - DEVELOPMENT
 GET http://127.0.0.1:5000/api/questions/health-check HTTP/1.1
+
+
+### REMOTE DEPLOYMENT - PRODUCTION
+GET https://quizzer-api.vercel.app/api/questions/health-check

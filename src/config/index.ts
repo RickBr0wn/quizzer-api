@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 5000
+const PORT: number = Number(process.env.PORT) || 5000
 
 const SERVER = {
 	PORT: PORT,

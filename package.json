@@ -11,7 +11,7 @@
 		"build": "rm -rf dist/ && tsc"
 	},
 	"engines": {
-		"node": "18.x"
+		"node": "19.x"
 	},
 	"keywords": [],
 	"author": "",
