@@ -1,7 +1,6 @@
 import app from './app'
+import SERVER from './config'
 
-const port: number = 5000
-
-app.listen(port, () => {
-	console.log(`🌍 connected on ${port}`)
+app.listen(SERVER.PORT, () => {
+	console.log(`🌍 connected on ${SERVER.PORT}`)
 })
