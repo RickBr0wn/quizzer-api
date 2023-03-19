@@ -2,12 +2,12 @@
 	"name": "quizzer-api",
 	"version": "1.0.0",
 	"description": "",
-	"main": "src/server.ts",
+	"main": "server.js",
 	"scripts": {
 		"test": "jest",
 		"test:watch": "jest --watch",
 		"dev": "nodemon src/server.ts",
-		"start": "node dist/server.js",
+		"start": "node server.js",
 		"build": "rm -rf dist/ && tsc"
 	},
 	"engines": {
